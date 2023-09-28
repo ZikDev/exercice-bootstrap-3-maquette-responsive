@@ -26,6 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  background: #f7f7f7;
 }
 
 a {
@@ -37,4 +38,106 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+h1 {
+  color: #000;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px 15px;
+}
+
+h2 {
+  color: #000;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 118.182% */
+}
+
+h3 {
+  color: #000;
+  text-align: center;
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px; /* 127.778% */
+}
+
+em {
+  color: #000;
+  font-family: DM Serif Display;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px; /* 118.182% */
+}
+
+.song {
+  color: #000;
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 127.778% */
+}
+
+.credit {
+  color: #000;
+  text-align: center;
+  font-family: Heebo;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 200% */
+}
+
+.light {
+  color: #b3b3b3;
+  font-family: Heebo;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+h4 {
+  color: #000;
+  font-family: Heebo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px; /* 416.667% */
+  margin-top: 10px;
+}
+
+.text {
+  color: #000;
+  font-family: Heebo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.header,
+.main-article,
+.second-article,
+.reviews {
+  background: #fff;
+}
+
+.main-article {
+  margin: 10px 15px;
+}
+
+.second-article {
+  margin: 10px 15px;
 }

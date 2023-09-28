@@ -38,6 +38,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  margin-bottom: 25px;
 }
 
 h1 {
@@ -127,17 +128,18 @@ h4 {
   line-height: normal;
 }
 
+main {
+  padding: 0 15px;
+}
+
 .header,
 .main-article,
 .second-article,
 .reviews {
   background: #fff;
+  margin-bottom: 20px;
 }
 
-.main-article {
-  margin: 10px 15px;
-}
-
-.second-article {
-  margin: 10px 15px;
+.reviews {
+  padding: 25px 20px 30px;
 }
